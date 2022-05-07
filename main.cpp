@@ -1,7 +1,7 @@
 #include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
-#include<time.h>
+#include <time.h>
 #include "headers.h"
 
 // The number of coins in each game; MUST BE EVEN --> both players get the same number
