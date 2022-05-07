@@ -319,7 +319,7 @@ void displayWinner(int playerValue, int CPUValue) {
 }
 
 /**
-    Calculates an array (pointers) indicating which moves to make
+    Finds the index in the 'coins' array which will lead to the optimal value in the game.  Uses a dynamic programming approach.
 
     @param myLeftSum    used to get the left sum (selecting the left coin) of the initial call to this method
     @param myRightSum   used to get the right sum (selecting the right coin) of the initial call to this method
